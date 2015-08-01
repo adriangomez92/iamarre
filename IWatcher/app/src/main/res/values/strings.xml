@@ -2,10 +2,10 @@
     <string name="app_name">iAmarre</string>
 
     <string name="title_section1">Listado de amarres</string>
-    <string name="title_section2">Incidencias</string>
-    <string name="title_section3">Calendario</string>
-    <string name="title_section4">Crear incidencia</string>
-    <string name="title_section5">Listar incidencia</string>
+    <string name="title_section2">Crear incidencia</string>
+    <string name="title_section3">Listado incidencias</string>
+    <string name="title_section4">Calendario</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
