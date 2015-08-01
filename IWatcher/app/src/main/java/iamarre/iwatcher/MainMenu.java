@@ -61,17 +61,13 @@ public class MainMenu extends ActionBarActivity
         switch (position){
             case 0:
                 fragment = new Calendario();
-                //Gestión de rutas (VistaRutas)
-
                 break;
             case 1:
-                //Listado de rutas
-                //fragment = new BusquedaRuta();
+                fragment = new NewIssue();
                 break;
             case 2:
                 fragment = new Calendario();
-                //Listar acuerdo
-                // fragment = new ListarAcuerdosTransportista();
+
                 break;
             default:
                 fragment = new Calendario();

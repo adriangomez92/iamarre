@@ -6,6 +6,13 @@
     <string name="title_section3">Listado incidencias</string>
     <string name="title_section4">Calendario</string>
 
+    <string-array name="array_name">
+        <item>Nivel Muy Alto</item>
+        <item>Nivel Alto</item>
+        <item>Nivel Medio</item>
+        <item>Nivel Bajo</item>
+    </string-array>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
