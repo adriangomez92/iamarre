@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="iamarre.iwatcher.listIssues">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/lblItemSearch"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:hint="Búsqueda"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_menu_search" />
+
+
+    <ListView
+        android:id="@+id/listissues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#278fca"
+
+        />
+
+</LinearLayout>
+
+
+
+</FrameLayout>
