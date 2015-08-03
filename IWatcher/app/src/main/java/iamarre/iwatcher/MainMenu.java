@@ -15,7 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-//cambio
 public class MainMenu extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
@@ -40,9 +39,6 @@ public class MainMenu extends ActionBarActivity
         //for the preferences in the menu
 
         //check if login continue else login activity
-
-
-
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -60,14 +56,13 @@ public class MainMenu extends ActionBarActivity
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new Calendario();
+                fragment = new ListMooring();
                 break;
             case 1:
                 fragment = new NewIssue();
                 break;
             case 2:
-                fragment = new Calendario();
-
+                fragment = new listIssues();
                 break;
             default:
                 fragment = new Calendario();

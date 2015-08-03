@@ -11,6 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="50dp"
         android:orientation="vertical">
 
 
@@ -23,21 +25,20 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Asunto :"
-            android:layout_gravity="top"
             android:padding="10dp"
-            android:textSize="25dp"/>
+            android:textSize="14dp"/>
 
         <EditText
             android:inputType="textMultiLine"
-            android:lines="8"
             android:gravity="top|right"
             android:layout_width="250dp"
             android:maxLines="10"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:padding="10dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginRight="10dp"
-            android:textSize="20dp"
+            android:textSize="14dp"
             android:scrollbars="vertical"
             />
         </LinearLayout>
@@ -50,19 +51,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Prioridad"
+                android:text="Prioridad :"
                 android:layout_gravity="top"
                 android:padding="10dp"
-                android:textSize="25dp"/>
+                android:textSize="14dp"/>
 
            <Spinner
                android:layout_width="fill_parent"
                android:layout_height="match_parent"
                android:entries="@array/array_name"
+               android:layout_marginLeft="10dp"
                android:drawSelectorOnTop="true"
                android:textAlignment="center"
-               android:textSize="25dp"
-               >
+               android:textSize="25dp">
 
                </Spinner>
 
@@ -78,11 +79,11 @@
                 android:text="Descripción :"
                 android:layout_gravity="top"
                 android:padding="10dp"
-                android:textSize="25dp"/>
+                android:textSize="14dp"/>
 
             <EditText
                 android:inputType="textMultiLine"
-                android:lines="8"
+                android:lines="5"
                 android:gravity="top|right"
                 android:layout_width="250dp"
                 android:maxLines="10"
@@ -90,11 +91,59 @@
                 android:layout_gravity="top"
                 android:padding="10dp"
                 android:layout_marginRight="10dp"
-                android:textSize="20dp"
+                android:textSize="14dp"
                 android:scrollbars="vertical"
                 />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/imagen_torreta"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        <Button
+            android:src="@drawable/camera_photo"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:id="@+id/ibAddImage1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:layout_marginRight="50dp"
+            android:text="Captura"
+
+            />
+        <Button
+            android:src="@drawable/folder"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:padding="10dp"
+            android:text="Guardar"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="right|bottom"
+            />
+
         </LinearLayout>
 
     </LinearLayout>
-</ScrollView>
+ </ScrollView>
+
+
+
+
+
+
 </FrameLayout>
